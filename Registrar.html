@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/EstiloRegistro.css">
+
+</head>
+
+<body>
+    <form class="formulario" onsubmit="return validar();">
+
+        <h1>Registrate</h1>
+         <div class="contenedor">
+
+         <div class="input-contenedor">
+            <i class="fas fa-user icon"></i>
+            <input type="text" id="nombre" placeholder="Nombre Completo">
+
+           </div>
+
+           <div class="input-contenedor">
+            <i class="fas fa-envelope icon"></i>
+            <input type="text" id="correo" placeholder="Correo Electrónico">
+
+           </div>
+
+
+           <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+            <input type="password" id="password" placeholder="Contraseña">
+
+           </div>
+           <input type="submit" value="Registrate" class="button">
+           <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+           <p>¿Ya tienes una cuenta?<a class="link" href="Login.html"> Iniciar Sesión</a></p>
+        </div>
+    </form>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
